@@ -17,7 +17,7 @@ JsDoc-Toolkit normally runs under [Rhino](http://www.mozilla.org/rhino/) which i
 Synopsis
 --------
 
-	node app/run.js [OPTIONS] -t=<template_dir> <source_dir> <source_file> ...
+	noc [OPTIONS] -t=<template_dir> <source_dir> <source_file> ...
 
 
 Options

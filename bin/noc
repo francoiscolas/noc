@@ -1,0 +1,4 @@
+#!/bin/sh
+HOMEDIR=`dirname $0`/..
+node $HOMEDIR/app/run.js "$@"
+
