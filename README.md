@@ -1,7 +1,7 @@
 Noc
 ===
 
-Noc - Documentation generation tool based on Node.
+Noc - Documentation generator tool for Node.
 
 Description
 -----------
