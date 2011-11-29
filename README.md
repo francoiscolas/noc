@@ -6,12 +6,10 @@ Noc - Documentation generation tool based on Node.
 Description
 -----------
 
-*Noc* is a project intended to run [JsDoc-Toolkit](http://code.google.com/p/jsdoc-toolkit/) under [Node](http://nodejs.org/).
-
+*Noc* is a project intended to run [JsDoc-Toolkit](http://code.google.com/p/jsdoc-toolkit/) under [Node](http://nodejs.org/).  
 
 JsDoc-Toolkit normally runs under [Rhino](http://www.mozilla.org/rhino/) which is a javascript engine developed in Java.  
-*Noc* has no dependency on Java and is a lot faster than the version of JsDoc-Toolkit based on Rhino.
-
+*Noc* has no dependency on Java and is a lot faster than the version of JsDoc-Toolkit based on Rhino.  
 
 *Noc* uses JsDoc-Toolkit 2.4.0.
 
@@ -84,4 +82,10 @@ Options
 
 	-x=<EXT>[,EXT]... or --ext=<EXT>[,EXT]...
 			Scan source files with the given extension/s (defaults to js).
+
+
+Git repository
+--------------
+
+https://github.com/francoiscolas/noc
 
