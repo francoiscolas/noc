@@ -1,4 +1,14 @@
-#!/bin/sh
-HOMEDIR=`dirname $0`/..
-node $HOMEDIR/app/run.js "$@"
+#!/usr/bin/env node
+
+var CHILD_PROCESS = require('child_process');
+var PATH          = require('path');
+var app;
+
+app = CHILD_PROCESS.spawn(process.execPath, [PATH.join(__dirname, '..', 'app', 'run.js')].concat(process.argv.slice(2)));
+app.stdout.on('data', function (data) {
+    process.stdout.write(data);
+});
+app.stderr.on('data', function (data) {
+    process.stderr.write(data);
+});
 
