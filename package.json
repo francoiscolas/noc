@@ -1,22 +1,22 @@
 {
-	"name"			: "noc",
-	"version"		: "1.0.0",
-	"description"	: "Documentation generation tool based on JsDoc-Toolkit.",
-	"keywords"		: [
-		"documentation",
-		"generator",
-		"jsdoc"
-	],
-	"author"		: "François Colas <francoiscolas@gmail.com>",
+    "name"          : "noc",
+    "version"       : "1.0.1",
+    "description"   : "Documentation generation tool based on JsDoc-Toolkit.",
+    "keywords"      : [
+        "documentation",
+        "generator",
+        "jsdoc"
+    ],
+    "author"        : "François Colas <francoiscolas@gmail.com>",
 
-	"bin": "./bin/noc",
+    "bin": "./bin/noc",
 
-	"repository": {
-		"type"	: "git",
-		"url"	: "https://github.com/francoiscolas/noc.git"
-	},
+    "repository": {
+        "type"  : "git",
+        "url"   : "https://github.com/francoiscolas/noc.git"
+    },
 
-	"engines": {
-		"node": ">= 0.6.0"
+    "engines": {
+        "node": ">= 0.6.0"
 	}
 }
